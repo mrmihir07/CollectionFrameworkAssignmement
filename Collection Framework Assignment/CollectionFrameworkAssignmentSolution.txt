@@ -1,0 +1,101 @@
+1. What is the collection framework in Java?
+Ans - It is known that a collection is an object representing the group of objects. The collection framework is an architecture representing and manipulating collections.
+
+2. What is the difference between ArrayList and LinkedList?
+Ans- ArrayList:-
+	> ArrayList implements List interface.
+	> Memory management is not done effectively.
+	> In ArrayList, objects are stored in a continuous memory allocation.
+	> ArrayList provides random access. 
+	> ArrayList takes less memory overhead It's stored only objects.
+     LinkedList:-
+	> LikedList implements List interface as well as the Dequeue interface.
+	> Memory management is done effectively.
+	> In LinkedList, objects are not stored in a continuous memory allocation.
+	> LinkedList doesn't provide random access. 
+	> LinkedList takes more memory overhead It's stored objects as well as the address of the objects.
+
+3. What is the difference between Iterator and ListIterator?
+Ans- Iterator:-
+	> The Iterator traverses the elements in the forward direction only.
+	> The Iterator can be used in the List, Set and Queue
+	> The Iterator can only perform a remove operation while traversing the collection.
+     ListIterator:-
+	> The Listiterator traverses the elements in the forward and backward directions both.
+	> The Listiterator can be used in the List only.
+	> The Listiterator can only perform ?add,? ?remove,? and ?set? operation while traversing the collection.
+
+4. What is the difference between Iterator and Enumeration?
+Ans - Iterator:-
+	> We can apply Iterator concept for any collection object.
+	> The Iterator is fail-fast.
+	> The Iterator is slower than Enumeration.
+	> By using Iterator we can perform both read and remove operation.
+      Enumeration:-
+	> We can apply the Enumeration concept for only legacy classes.
+	> Enumeration is not fail-fast.
+	> The Enumeration is slower than Iterator.
+	> By using Enumeration we can perform only read operation.
+
+5. What is the difference between List and Set?
+Ans- List:-
+	> In the List, duplicates are allowed.
+	> Here order of insertion is preserved.
+	> Multiple null insertion is possible in the List interface.
+	> List interface contains a single Legacy class which is Vector.
+     Set:-
+	> In the Set interface, duplicates are not allowed.
+	> Here order of insertion is not preserved.
+	> null insertion is possible only once in the Set interface.
+	> Set interface doesn't contain any Legacy classes.
+
+5. What is the difference HashSet and TreeSet?
+Ans- HashSet:-
+	> HashSet is an unordered collection of objects.
+	> HashSet implemented using a HashTable.
+	> HashSet has constant time complexity O(1).
+	> HashSet uses less memory than TreeSet because It only stores the elements.
+	> HasSet provides no guarantees regarding the order of iteration.
+     TreeSet:-
+	> TreeSet is a sorted set of elements.
+	> TreeSet implemented using a Self-balancing binary search tree.
+	> TreeSet has logarithmic-time complexity which is O(log n).
+	> TreeSet uses more memory because It stores additional information for maintaining the order.
+	> TreeSet guarantees the order of iteration in sorted order.
+
+6. What is the difference between Array and ArrayList.
+Ans- Array:-
+	> Arrays can store elements of primitive data types as well as objects.
+	> The size of the Array is fixed we cannot increase or decrease the size of the Array dynamically.
+	> Arrays have a limited set of methods as compared to ArrayList. 
+	> Array does not allow to insertion of heterogeneous types of data.
+     ArrayList:-
+	> ArrayList can store elements of only object types.
+	> The size ArrayList is not fixed we can increase or decrease size according to our need.
+	> ArrayList provides more methods for manipulating the collection such as adding, removing, sorting the elements.
+	> ArrayList allows to insert of both homogeneous as well as heterogenous types of data.
+	
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
